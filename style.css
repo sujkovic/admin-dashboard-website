@@ -14,7 +14,7 @@ body {
     grid-template-rows: repeat(6, 1fr);
     font-size: 18px;
     --sky-blue: #008ccd;
-    --white-background: #F0F9FF;
+    --white-background: #eef2f6;
     --gray-background: #d0d6e1;
 }
 
@@ -75,6 +75,8 @@ body {
     padding: 20px 40px 10px 30px;
     grid-column: 2 / 7;
     grid-row: 1 / 2;
+    box-shadow: 5px 5px 5px rgb(130, 55, 55);
+    background-color: var(--white-background);
 }
 
 .top {
@@ -111,8 +113,9 @@ input:hover {
     border-radius: 50px;
 }
 
-.top span:nth-child(5) {
+.top a:nth-child(5) {
     font-weight: 600;
+    color: black;
 }
 
 .bottomwrapper {
@@ -186,7 +189,7 @@ input:hover {
     width: 80%;
     padding: 16px;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px rgb(201, 201, 201);
+    box-shadow: 5px 5px 5px rgb(201, 201, 201);
     background-color: var(--white-background);
     border-left: 8px rgb(227, 144, 19) solid;
     display: flex;
@@ -225,7 +228,7 @@ input:hover {
     padding: 24px;
     background-color: var(--white-background);
     border-radius: 8px;
-    box-shadow: 2px 2px 2px rgb(201, 201, 201);
+    box-shadow: 5px 5px 5px rgb(201, 201, 201);
 }
 
 .announcements-section-body {
@@ -249,12 +252,14 @@ input:hover {
 }
 
 
-
+.trending h2 {
+    padding-bottom: 12px;
+}
 
 .trending-body {
     padding: 16px;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px rgb(201, 201, 201);
+    box-shadow: 5px 5px 5px rgb(201, 201, 201);
     background-color: var(--white-background);
     display: flex;
     flex-direction: column;
@@ -317,4 +322,8 @@ img {
 
 img:hover {
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
