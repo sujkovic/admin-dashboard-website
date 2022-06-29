@@ -10,11 +10,11 @@
 body {
     display: grid;
     font-family: 'Roboto', sans-serif;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(6, 1fr);
     font-size: 18px;
     --sky-blue: #008ccd;
-    --white-background: #eef2f6;
+    --white-background: #ffffff;
     --gray-background: #d0d6e1;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .header {
     padding: 20px 40px 10px 30px;
-    grid-column: 2 / 7;
+    grid-column: 2 / 8;
     grid-row: 1 / 2;
     box-shadow: 5px 5px 5px rgb(130, 55, 55);
     background-color: var(--white-background);
@@ -163,7 +163,7 @@ input:hover {
 
 .mainbody {
     padding: 30px;
-    grid-column: 2 / 7;
+    grid-column: 2 / 8;
     grid-row: 2 / 7;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
